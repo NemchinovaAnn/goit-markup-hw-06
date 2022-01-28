@@ -270,7 +270,6 @@ outline: 2px solid red;
     text-transform: uppercase;
     width: 100%;
     height: 70px;
-    text-align: center;
     padding: 27px;
 }
 /* --------Наша команда------- */ 
@@ -720,9 +719,8 @@ outline: 2px solid red;
 }
 .input-icon{
     position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
+    left: 14px;
+    top: 13px;
     fill: var(--ferst-btn-color);
     transition: fill 250ms;
 }
@@ -761,7 +759,13 @@ outline: 2px solid red;
     resize: none;
     cursor: pointer;
 }
-
+.form-comment:hover{
+    border-color: var(--accent-color);
+}
+.form-field{
+   padding-top: 20px;
+   padding-bottom: 30px;
+}
 .form-comment::placeholder {
     font-style: normal;
     font-weight: normal;
@@ -778,13 +782,15 @@ outline: 2px solid red;
     letter-spacing: 0.03em;
     color: #757575;
     display: flex;
+    align-items: center;
 }
 .chek-text::before{
     content: "";
     width: 16px;
     height: 15px;
     border: 2px solid #212121;
-    border-radius: 2px;
+    border-radius: 3px;
+    margin-right: 8px;
 }
 .policy-chek:checked + .chek-text::before{
 border: none;
@@ -795,6 +801,7 @@ background-size: cover;
 }
 .chek-text-link{
     color: var(--accent-color);
+    padding-left: 5px;
 }
 .btn-form{
     border: none;
