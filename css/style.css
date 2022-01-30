@@ -791,6 +791,7 @@ outline: 2px solid red;
     border: 2px solid #212121;
     border-radius: 3px;
     margin-right: 8px;
+    margin-left: 12px;
 }
 .policy-chek:checked + .chek-text::before{
 border: none;
